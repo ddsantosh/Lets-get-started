@@ -19,6 +19,18 @@
 	${tempCity}<br>
 </c:forEach>
 <br> 
+// doesn't only work for number.
+// can work for strings as well
+{
+	
+<c: forEach var = "temp	" items="${myCities}">
+		${temp}<br/>
+	</c:forEach>
+
+}
+	
+	
+	
 <c:forEach var="i" begin="1" end="10" step="1">
 	<%-- <c:out value="${i}" /> --%> 
 	${i }<br>
