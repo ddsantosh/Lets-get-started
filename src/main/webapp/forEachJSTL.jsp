@@ -23,12 +23,7 @@
 // can work for strings as well
 {
 	
-<c: forEach var = "temp	" items="${myCities}">
-		${temp}<br/>
-	</c:forEach>
-
-}
-	
+// deleted, already written same code above.	
 	
 	
 <c:forEach var="i" begin="1" end="10" step="1">
