@@ -11,6 +11,8 @@
 <body>
 
 <c:url value="/forToken.jsp"/>
-
+<c:url value="/forEach.jsp"/>
+    
+    
 </body>
 </html>
