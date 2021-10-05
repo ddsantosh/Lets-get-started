@@ -14,6 +14,9 @@
 	<c:out value="${name}"/>
 </c:forTokens>
 <!-- delims removes the character and adds space to its location -->
-
+	
+<c:forTokens items="this is jstl turotial for tokens." delims=" " var="name">
+	<c:out value="${name}"/>
+</c:forTokens>
 </body>
 </html>
