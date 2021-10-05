@@ -25,7 +25,7 @@ Does string starts with <b>Man</b> ? ${fn:startsWith(data,"Man")}
  <br>
  </c:forEach> 
  
- <h3> Join Demo</h3> 
+ <h2> Join Demo</h2> 
 
  <c:set var="fun" value="${fn:join(cityArray, '*')}" />
  ${fun}
